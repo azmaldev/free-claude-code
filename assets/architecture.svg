@@ -1,0 +1,115 @@
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" font-family="monospace, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="520" fill="#0d1117" rx="12"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" fill="#e6edf3" font-size="17" font-weight="bold">Claude Code + Ollama — Free Agentic Coding Setup</text>
+
+  <!-- ── YOU box ── -->
+  <rect x="30" y="70" width="140" height="64" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="100" y="97" text-anchor="middle" fill="#79c0ff" font-size="13" font-weight="bold">YOU</text>
+  <text x="100" y="116" text-anchor="middle" fill="#8b949e" font-size="11">PowerShell / Terminal</text>
+
+  <!-- Arrow YOU → Claude Code -->
+  <line x1="170" y1="102" x2="245" y2="102" stroke="#30363d" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="207" y="96" text-anchor="middle" fill="#8b949e" font-size="9">command</text>
+
+  <!-- Claude Code CLI box -->
+  <rect x="245" y="70" width="175" height="64" rx="10" fill="#161b22" stroke="#388bfd" stroke-width="2"/>
+  <text x="332" y="94" text-anchor="middle" fill="#388bfd" font-size="13" font-weight="bold">Claude Code CLI</text>
+  <text x="332" y="111" text-anchor="middle" fill="#8b949e" font-size="10">by Anthropic (open source)</text>
+  <text x="332" y="124" text-anchor="middle" fill="#8b949e" font-size="10">npm install -g @anthropic-ai/claude-code</text>
+
+  <!-- Arrow Claude Code → Ollama -->
+  <line x1="420" y1="102" x2="495" y2="102" stroke="#30363d" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="457" y="93" text-anchor="middle" fill="#8b949e" font-size="9">Anthropic</text>
+  <text x="457" y="104" text-anchor="middle" fill="#8b949e" font-size="9">Messages API</text>
+
+  <!-- Ollama box -->
+  <rect x="495" y="60" width="180" height="84" rx="10" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+  <text x="585" y="88" text-anchor="middle" fill="#3fb950" font-size="14" font-weight="bold">Ollama</text>
+  <text x="585" y="107" text-anchor="middle" fill="#8b949e" font-size="10">The Router / Wrapper</text>
+  <text x="585" y="122" text-anchor="middle" fill="#8b949e" font-size="10">localhost:11434</text>
+  <text x="585" y="136" text-anchor="middle" fill="#56d364" font-size="10">speaks Anthropic API format</text>
+
+  <!-- Arrow Ollama → Cloud -->
+  <line x1="675" y1="80" x2="755" y2="130" stroke="#30363d" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="725" y="98" text-anchor="middle" fill="#8b949e" font-size="9">cloud</text>
+
+  <!-- Arrow Ollama → Local -->
+  <line x1="675" y1="122" x2="755" y2="200" stroke="#30363d" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="735" y="175" text-anchor="middle" fill="#8b949e" font-size="9">local</text>
+
+  <!-- Cloud Models box -->
+  <rect x="755" y="100" width="120" height="64" rx="10" fill="#161b22" stroke="#d29922" stroke-width="1.5"/>
+  <text x="815" y="122" text-anchor="middle" fill="#d29922" font-size="12" font-weight="bold">☁️ Cloud</text>
+  <text x="815" y="138" text-anchor="middle" fill="#8b949e" font-size="9">Ollama's servers</text>
+  <text x="815" y="153" text-anchor="middle" fill="#8b949e" font-size="9">Free (with limits)</text>
+
+  <!-- Local Models box -->
+  <rect x="755" y="190" width="120" height="64" rx="10" fill="#161b22" stroke="#bc8cff" stroke-width="1.5"/>
+  <text x="815" y="212" text-anchor="middle" fill="#bc8cff" font-size="12" font-weight="bold">💻 Local</text>
+  <text x="815" y="228" text-anchor="middle" fill="#8b949e" font-size="9">Your machine</text>
+  <text x="815" y="243" text-anchor="middle" fill="#8b949e" font-size="9">100% Free forever</text>
+
+  <!-- ═══════════ MODELS SECTION ═══════════ -->
+  <text x="450" y="290" text-anchor="middle" fill="#8b949e" font-size="12">── Available Free Cloud Models ──</text>
+
+  <!-- Model cards row 1 -->
+  <!-- GLM-5 -->
+  <rect x="30" y="305" width="118" height="72" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="89" y="325" text-anchor="middle" fill="#388bfd" font-size="11" font-weight="bold">GLM-5</text>
+  <text x="89" y="340" text-anchor="middle" fill="#8b949e" font-size="9">Zhipu AI 🇨🇳</text>
+  <text x="89" y="354" text-anchor="middle" fill="#56d364" font-size="9">SWE: 77.8%</text>
+  <text x="89" y="368" text-anchor="middle" fill="#8b949e" font-size="8">glm-5:cloud</text>
+
+  <!-- MiniMax -->
+  <rect x="160" y="305" width="118" height="72" rx="8" fill="#161b22" stroke="#f78166" stroke-width="1.5"/>
+  <text x="219" y="325" text-anchor="middle" fill="#f78166" font-size="11" font-weight="bold">MiniMax M2.7</text>
+  <text x="219" y="340" text-anchor="middle" fill="#8b949e" font-size="9">MiniMax 🇨🇳</text>
+  <text x="219" y="354" text-anchor="middle" fill="#56d364" font-size="9">SWE: 80.2% 🏆</text>
+  <text x="219" y="368" text-anchor="middle" fill="#8b949e" font-size="8">minimax-m2.7:cloud</text>
+
+  <!-- Kimi K2.5 -->
+  <rect x="290" y="305" width="118" height="72" rx="8" fill="#161b22" stroke="#d29922" stroke-width="1.5"/>
+  <text x="349" y="325" text-anchor="middle" fill="#d29922" font-size="11" font-weight="bold">Kimi K2.5</text>
+  <text x="349" y="340" text-anchor="middle" fill="#8b949e" font-size="9">Moonshot AI 🇨🇳</text>
+  <text x="349" y="354" text-anchor="middle" fill="#56d364" font-size="9">SWE: 76.8%</text>
+  <text x="349" y="368" text-anchor="middle" fill="#8b949e" font-size="8">kimi-k2.5:cloud</text>
+
+  <!-- Qwen3.5 -->
+  <rect x="420" y="305" width="118" height="72" rx="8" fill="#161b22" stroke="#3fb950" stroke-width="1.5"/>
+  <text x="479" y="325" text-anchor="middle" fill="#3fb950" font-size="11" font-weight="bold">Qwen3.5</text>
+  <text x="479" y="340" text-anchor="middle" fill="#8b949e" font-size="9">Alibaba 🇨🇳</text>
+  <text x="479" y="354" text-anchor="middle" fill="#56d364" font-size="9">Live: 83.6%</text>
+  <text x="479" y="368" text-anchor="middle" fill="#8b949e" font-size="8">qwen3.5:cloud</text>
+
+  <!-- DeepSeek -->
+  <rect x="550" y="305" width="118" height="72" rx="8" fill="#161b22" stroke="#bc8cff" stroke-width="1.5"/>
+  <text x="609" y="325" text-anchor="middle" fill="#bc8cff" font-size="11" font-weight="bold">DeepSeek V3.2</text>
+  <text x="609" y="340" text-anchor="middle" fill="#8b949e" font-size="9">DeepSeek 🇨🇳</text>
+  <text x="609" y="354" text-anchor="middle" fill="#56d364" font-size="9">SWE: 74.4%</text>
+  <text x="609" y="368" text-anchor="middle" fill="#8b949e" font-size="8">deepseek-v3.2:cloud</text>
+
+  <!-- Gemma 4 -->
+  <rect x="680" y="305" width="118" height="72" rx="8" fill="#161b22" stroke="#79c0ff" stroke-width="1.5"/>
+  <text x="739" y="325" text-anchor="middle" fill="#79c0ff" font-size="11" font-weight="bold">Gemma 4 🆕</text>
+  <text x="739" y="340" text-anchor="middle" fill="#8b949e" font-size="9">Google 🇺🇸</text>
+  <text x="739" y="354" text-anchor="middle" fill="#56d364" font-size="9">Live: 80.0%</text>
+  <text x="739" y="368" text-anchor="middle" fill="#8b949e" font-size="8">gemma4:cloud</text>
+
+  <!-- ═══ FLOW LABELS ═══ -->
+  <rect x="30" y="415" width="840" height="85" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="450" y="435" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="bold">How It Works</text>
+  <text x="55" y="455" fill="#e6edf3" font-size="10">1. Claude Code CLI (free tool by Anthropic) normally talks to paid Anthropic servers</text>
+  <text x="55" y="471" fill="#e6edf3" font-size="10">2. Ollama builds an API layer that speaks the same language as Anthropic's API</text>
+  <text x="55" y="487" fill="#e6edf3" font-size="10">3. You redirect Claude Code → Ollama → Free open-source models (cloud or local)</text>
+  <text x="55" y="503" fill="#56d364" font-size="10">Result: Full Claude Code agentic workflow (reads files, writes code, runs commands) — completely FREE</text>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#30363d"/>
+    </marker>
+  </defs>
+</svg>
