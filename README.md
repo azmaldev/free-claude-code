@@ -3,7 +3,7 @@
 > **Use Anthropic's Claude Code agentic workflow — completely free — powered by open-source models via Ollama.**
 > No Anthropic subscription. No API key. No paid plan. Just your terminal.
 
-![Architecture Diagram](./architecture.svg)
+![Architecture Diagram](./assets/architecture.svg)
 
 ---
 
