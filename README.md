@@ -1,3 +1,5 @@
+
+
 # 🚀 Free Claude Code Setup with Ollama
 
 > **Use Anthropic's Claude Code agentic workflow — completely free — powered by open-source models via Ollama.**
@@ -286,6 +288,7 @@ claude --model openrouter/google/gemma-3-27b-it:free
 ```powershell
 $env:ANTHROPIC_API_KEY = "your-openrouter-key"
 $env:ANTHROPIC_BASE_URL = "https://openrouter.ai/api/v1"
+$env:ANTHROPIC_AUTH_TOKEN = "your-openrouter-key"
 claude --model openrouter/google/gemma-3-27b-it:free
 ```
 
